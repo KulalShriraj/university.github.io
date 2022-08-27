@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="ui/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-circle-fill onclick" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate And Programs For 2022</h1>
+    </section>
+
+
+    <section class="blog">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="ui/certificate.jpg" alt="">
+                <h2>certificate</h2>
+              <p>Google Career Certificates are part of Grow with Google, an initiative that draws on Google's 20-year history of building products, platforms, and services that help people and businesses grow. Through programs like these, we aim to help everyone– those who make up the workforce of today and the students who will drive the workforce of tomorrow – access the best of Google’s training and tools to grow their skills, careers, and businesses.</p>
+                <div class="comment">
+
+                    <h3>leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter Email">
+                      <textarea  rows="5" placeholder="Your Comment "></textarea>
+                      <button type="Submit" class="hero-btn red-btn" >Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>31</span>
+                </div>
+                <div>
+                    <span>Autocad</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>16</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>01</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Near ring road Viraj Chakravarthy Building Opposite To The Meenakshi Mall <br>Banglore Karnataka,India</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+
+
+        </div>
+        <p style="margin-top: 27px;">made with <i class="bi bi-heart-fill"></i></p>
+
+    </section>
+
+
+    <script>
+        var navlinks = doccument.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
